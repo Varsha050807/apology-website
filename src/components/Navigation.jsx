@@ -81,14 +81,14 @@ export const MusicPlayer = () => {
       audioRef.current.pause()
       setPlaying(false)
     } else {
-      audioRef.current.play().catch(() => {})
+      audioRef.current.play().catch(() => { })
       setPlaying(true)
     }
   }
 
   return (
     <>
-      <audio ref={audioRef} src="/music/song.mp3" loop />
+      <audio ref={audioRef} src="/music/apology.mp4" loop />
       <motion.button
         className="music-btn"
         onClick={toggle}

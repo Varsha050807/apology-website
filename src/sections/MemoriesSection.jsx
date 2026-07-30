@@ -8,17 +8,17 @@ import 'swiper/css/effect-coverflow'
 
 // === EDITABLE MEMORIES DATA ===
 const MEMORIES = [
-  { id: 1, src: 'C:\Users\Varsha\Downloads\WhatsApp Image 2026-07-29 at 8.20.39 PM.jpeg', caption: 'The day everything felt perfect.' },
-  { id: 2, src: 'https://placehold.co/600x800/EDE7F6/3B2F2F?text=Memory+2', caption: 'My favourite smile.' },
-  { id: 3, src: 'https://placehold.co/600x800/FFF4E6/3B2F2F?text=Memory+3', caption: 'I still replay this day.' },
-  { id: 4, src: 'https://placehold.co/600x800/FADADD/3B2F2F?text=Memory+4', caption: 'I wish I could go back.' },
-  { id: 5, src: 'https://placehold.co/600x800/EDE7F6/3B2F2F?text=Memory+5', caption: 'You were glowing that day.' },
-  { id: 6, src: 'https://placehold.co/600x800/FFF4E6/3B2F2F?text=Memory+6', caption: 'This one made me feel everything.' },
-  { id: 7, src: 'https://placehold.co/600x800/FADADD/3B2F2F?text=Memory+7', caption: 'A moment frozen in time.' },
-  { id: 8, src: 'https://placehold.co/600x800/EDE7F6/3B2F2F?text=Memory+8', caption: 'The world was so quiet here.' },
-  { id: 9, src: 'https://placehold.co/600x800/FFF4E6/3B2F2F?text=Memory+9', caption: 'Pure happiness.' },
-  { id: 10, src: 'https://placehold.co/600x800/FADADD/3B2F2F?text=Memory+10', caption: 'My heart was so full.' },
-]
+  { id: 1, src: "/images/memory1.jpeg", caption: "The day everything felt perfect." },
+  { id: 2, src: "/images/memory2.jpeg", caption: "My favourite smile." },
+  { id: 3, src: "/images/memory3.jpeg", caption: "I still replay this day." },
+  { id: 4, src: "/images/memory4.jpeg", caption: "I wish I could go back." },
+  { id: 5, src: "/images/memory5.jpeg", caption: "You were glowing that day." },
+  { id: 6, src: "/images/memory6.jpeg", caption: "This one made me feel everything." },
+  { id: 7, src: "/images/memory7.jpeg", caption: "A moment frozen in time." },
+  { id: 8, src: "/images/memory8.jpeg", caption: "The world was so quiet here." },
+  { id: 9, src: "/images/memory9.jpeg", caption: "Pure happiness." },
+  { id: 10, src: "/images/memory10.jpeg", caption: "My heart was so full." },
+];
 
 const FullscreenGallery = ({ images, startIndex, onClose }) => {
   const [current, setCurrent] = useState(startIndex)
